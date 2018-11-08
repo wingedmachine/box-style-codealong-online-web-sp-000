@@ -141,7 +141,7 @@ header {
 
 #navbar nav a {
   display: inline-block;
-  width: 16.3%;
+  width: 16.2%;
   margin: 0;
   padding: 22px 0;
   text-transform: uppercase;
@@ -156,6 +156,11 @@ header {
 #navbar nav a.selected {
   background: #333;
   color: white;
+}
+
+#navbar nav a:hover {
+  color: white;
+  background: blue;
 }
 
 /*////////// LOGO //////////*/
